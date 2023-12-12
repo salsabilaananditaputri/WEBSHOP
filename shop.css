@@ -1,0 +1,187 @@
+    body{
+    margin: 0;
+    overflow-x: hidden;
+    }
+    .container {
+        min-width: 1200px;
+        margin: auto;
+    }
+    .content-top {
+        max-width: 200vh;
+        background-color: rgb(13, 86, 20);
+        min-height: 100vh;
+    }
+    #header {
+        max-width: 1300px;
+        margin: auto;
+    }
+    .logo{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navbar{
+        background-color: white;
+        border-radius: 0px 0px 15px 15px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .link-menu {
+        padding: 0px;
+        display: flex;
+        column-gap: 10px;
+    }
+    .navbar h1{
+        text-align: right;
+    }
+    nav {
+        padding: 10px;
+        text-align: left;
+        position: sticky;
+        top: 0;
+        overflow: auto;
+    }
+    nav li {
+        display: block;
+        list-style-type: none;
+    }
+    div h2{
+        font-size: 50px;
+        color: #fff;
+    }
+    .btn-group {
+        margin-top: 40px;
+        margin-left: 7rem;
+    }
+    
+    .btn-group a {
+        color: black;
+        text-decoration: none;
+        padding: 10px 40px;
+        background: white;
+        border-radius: 25px;
+        border: 2px solid black;
+        font-weight: 500;
+    }
+    .container{
+        justify-content: space-between;
+        display: flex;
+    }
+    .image-side-photo img{
+        padding: 7rem;
+        margin-left: 12rem;
+        border-radius: 40% 0 40% 0;
+    }
+    .container-content h2{
+        margin: 50px;
+        margin-left: 7rem;
+    }
+    .container-content img{
+        border-radius: 50% 50% 0 0 ;
+        margin: 5rem;
+        margin-left: 6rem;
+    }
+    .container-text{
+        text-align: center;
+        line-height: 0.9;
+        margin: 4rem;
+    }
+    .container-text span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content{
+        display: flex;
+        margin-left: 30px;
+        justify-content: space-between;
+    }
+    .box-content img{
+        border-radius: 10%;
+    }
+    .box-content{
+        display: flex;
+    }
+    .content p,h3{
+        margin-right: 100px;
+        line-height: 0.2;
+    }
+    #content-product{
+        background-color: rgb(209, 218, 110);
+        margin-top: 100px;
+        min-height: 155vh;
+    }
+    .heading-content{
+        text-align: center;
+        line-height: 4.9;
+        font-size: 20px;
+        color: #fff;
+    }
+    .product-card{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 0 15rem;
+    }
+    .product-card p,
+    .product-card-2 p{
+        background-color: rgb(156, 205, 101);
+        padding: 15px;
+        margin-top: -10px;
+        border-radius: 0 0 10px 10px;
+        color: #fff;
+    }
+    .product-card img,
+    .product-card-2 img{
+        border-radius: 10% 10% 0 0;
+    }
+    .product-card-2{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .product-content-about{
+        display: flex;
+        justify-content: space-around;
+    }
+    .the-text-product h4{
+        font-size: 30px;
+    }
+    .the-text-product p,h4{
+        line-height: 1.0;
+        max-width: 400px;
+        text-align: justify;
+    }
+    .the-text-product a{
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px;
+        background: white;
+        border-radius: 25px;
+        border: 2px solid black;
+        font-weight: 500;
+    }
+    .footer-end{
+        background-color: black;
+        color: white;
+    }
+    .text-footer p{
+        max-width: 400px;
+        text-align: justify;
+    }
+    .content-flex li{
+        list-style: none;
+    }
+    .content-footer{
+        display: flex;
+        gap: 100px;
+    }
+    .text-footer{
+        padding-left: 20px;
+    }
+    .content-flex{
+        margin-top: 30px;
+    }
